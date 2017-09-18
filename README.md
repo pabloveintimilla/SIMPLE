@@ -34,6 +34,7 @@ jQuery 1.7.2
 - Cargar la estructura inicial del archivo "sql/estructura.sql"
 - Cambiar el nombre del archivo de configuración de base de datos que se encuentra dentro de la carpeta "application/config" de "database.php.sample" a "database.php"
 - Editar el archivo "database.php" y actualizar los valores con los de su configuración, normalmente se deben editar sólo los campos "username, password, database"
+- Para versiones de Mysql 5.6.x o superior cambiar en el archivo de configuracion (my.cnf) el parametro sql-mode=""
 #### Aplicación de parches
 - Aplicar los últimos parches a base de datos situandose en la raiz de la aplicación y ejecutando el comando: php index.php migration migrate
 #### Carga de datos iniciales
